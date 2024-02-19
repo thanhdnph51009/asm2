@@ -1,0 +1,254 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.cam {
+  color: #ef670d;
+}
+.mau {
+  color: #7f56d9;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+ul,li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  display: flex;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 7%;
+}
+.menu-list {
+  display: flex;
+  gap: 30px;
+}
+.btn-group {
+  display: flex;
+  padding: auto;
+  gap: 45px;
+}
+.btn-Contact {
+  border: none;
+  padding: 16px 28px;
+  border-radius: 47px;
+  background: #7f56d9;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+}
+.btn-sign-in {
+  background: #fff;
+  border: none;
+  color: #55557a;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.menu-link {
+  color: #55557a;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: Caladea;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+}
+.text-inter {
+  color: #7e7eaa;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+}
+.a {
+  display: flex;
+  justify-content: center;
+  padding: auto;
+  gap: 68px;
+}
+.btn-instructor {
+  border: none;
+  padding: 16px 28px;
+  border-radius: 47px;
+  background: #ff6905;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+}
+.btn-student {
+  border: none;
+  padding: 16px 28px;
+  border-radius: 47px;
+  background: #7f56d9;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+}
+.text-main{
+    margin-left: 50px;
+}
+.btn-our{
+    font-size: 50px;
+    font-family: Caladea;
+    font-weight: 700;
+    line-height: 100px;
+    word-wrap: break-word
+}
+.btn-let{
+    color: #7E7EAA;
+    font-size: 25px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 40px;
+    word-wrap: break-word
+}
+.Tong {
+    display: flex;
+    gap: 65px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.font-1 {
+    width: 390px;
+    height: 551px;
+    flex-shrink: 0;
+    border-radius:47px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 50px;
+}
+.Supervised{
+    width: 390px;
+    height: 333px;
+    flex-shrink: 0;
+    border-radius:47px;
+}
+.anh-1 {
+    font-size: 24px;
+    font-weight: 700;
+    border-radius:47px;
+}
+.logo1{
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    color: #1A191F;
+    border-radius:47px;
+}
+.name {
+    font-size: 20px;
+    font-weight: 400;
+    border-radius:47px;
+}
+.tien {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius:47px;
+}
+.content {
+    padding: 30px 27px 35px 27px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius:47px;
+}
+.full-name {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    border-radius:47px;
+}
+.btn-test{
+    color: #1D1D45;
+    font-size: 50px;
+    font-family: Caladea;
+    font-weight: 700;
+    line-height: 55px;
+    word-wrap: break-word
+}
+.btn-what{
+    color: #7E7EAA;
+    font-size: 25px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 40px;
+    word-wrap: break-word
+}
+.feekback{
+  display: flex;
+  gap: 50px;
+  border-radius: 47px;
+}
+.hehehe{
+  width: 520px;
+  height: 455px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 32px;
+}
+.user{
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.username{
+  color: #1D1D45;
+  font-size: 28px;
+  font-weight: bold;
+}
+.doanvan{
+  color: #7e7eaa;
+  font-size: 22px;
+  padding-bottom: 56px;
+  padding-top: 26px;
+}
+.footer {
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #7f56d9;
+}
+.company-info {
+  max-width: 477px;
+}
+.lesson {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.lesson-info {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.lesson-text {
+  font-size: 16px;
+  font-weight: 600;
+}
